@@ -15,7 +15,7 @@
             html, body {
                 background-color: #fff;
                 color: #636b6f;
-                font-family: 'Raleway', sans-serif;
+                font-family: 'Arial', sans-serif;
                 font-weight: 100;
                 height: 100vh;
                 margin: 0;
@@ -47,6 +47,12 @@
 
             .title {
                 font-size: 84px;
+                background: linear-gradient(to bottom, #F6EFD2, #CEAD78);
+                box-shadow: -3px 4px 5px;
+            }
+
+            .title p {
+                color: #ADADA8;
             }
 
             .links > a {
@@ -57,6 +63,9 @@
                 letter-spacing: .1rem;
                 text-decoration: none;
                 text-transform: uppercase;
+                background: #E2EBDA;
+                padding: 10px 15px;
+                box-shadow: -3px 4px 5px;
             }
 
             .m-b-md {
@@ -79,7 +88,9 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    <p>
+                        Laravel
+                    </p>
                 </div>
 
                 <div class="links">
